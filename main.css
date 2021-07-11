@@ -48,6 +48,8 @@ body {
 /*main*/
 
 .main {
+	max-width: 1920px;
+	margin: 0 auto;
 	background-image: url("assets/hero-img.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -58,7 +60,7 @@ body {
 .main__header {
 	padding-top: 80px;
 	max-width: 500px;
-	margin-left: 50px;
+	margin: 0px 50px;
 }
 .main__header__h1 {
 	margin: 0px;
@@ -77,4 +79,14 @@ body {
 }
 .footer__p {
 	color: rgb(196, 196, 196);
+	margin: 0px 50px;
+}
+
+@media (max-width: 639px) {
+	.nav__menu {
+		display: none;
+	}
+	/* .main {
+		background-image: url("assets/\ hero-img.640x480.jpg");
+	} */
 }
