@@ -81,12 +81,3 @@ body {
 	color: rgb(196, 196, 196);
 	margin: 0px 50px;
 }
-
-@media (max-width: 639px) {
-	.nav__menu {
-		display: none;
-	}
-	/* .main {
-		background-image: url("assets/\ hero-img.640x480.jpg");
-	} */
-}
