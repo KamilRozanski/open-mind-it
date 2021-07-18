@@ -6,6 +6,8 @@ body {
 /*nav*/
 .nav {
 	display: flex;
+    justify-content: row;
+    order: ;
 	border-bottom: 1px solid;
 	background-color: rgba(0, 0, 0, 0.872);
 }
