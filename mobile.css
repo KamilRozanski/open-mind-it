@@ -43,8 +43,6 @@
 	top: -10px;
 }
 .hamburger--active .nav__menu__hamburger__inner {
-	/* transform: scale(0); */
-	/* transition: background-color .3s .05s ease-in-out; */
 	background-color: transparent;
 }
 .hamburger--active .nav__menu__hamburger__inner::before {
@@ -58,5 +56,25 @@
 @media (max-width: 639px) {
 	.nav__menu {
 		display: none;
+	}
+	.nav {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.nav__menu__ul {
+		flex-direction: column;
+	}
+	.nav__menu__li {
+		padding: 5px;
+	}
+	.navMenu--active {
+		position: absolute;
+		top: 100px;
+		display: flex;
+		font-size: 14px;
+		text-align: center;
+		background-color: rgba(0, 0, 0, 0.872);
+		transition: .3s .1s ease-in-out;
 	}
 }

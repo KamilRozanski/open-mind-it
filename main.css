@@ -6,8 +6,7 @@ body {
 /*nav*/
 .nav {
 	display: flex;
-    justify-content: row;
-    order: ;
+	justify-content: row;
 	border-bottom: 1px solid;
 	background-color: rgba(0, 0, 0, 0.872);
 }
@@ -30,6 +29,8 @@ body {
 	justify-content: space-evenly;
 	list-style-type: none;
 	font-size: 0.9em;
+	list-style: none;
+	padding-left: 0;
 }
 .nav__menu__li {
 	cursor: pointer;
