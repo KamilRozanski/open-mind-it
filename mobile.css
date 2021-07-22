@@ -5,6 +5,14 @@
 	background-color: transparent;
 	border: none;
 	margin: 0 10px;
+	transform: translateY(10px);
+	transition: translateY .3s .05s ease-in-out;
+}
+.nav__menu__hamburger--sticy {
+	position: fixed;
+	right: 0;
+	z-index: 9999;
+	transform: translateY(10px);
 }
 
 .nav__menu__hamburger__box {
@@ -12,7 +20,6 @@
 	width: 40px;
 	height: 24px;
 	transition: all .2s ease-in-out;
-	/* background-color: #fff; */
 }
 .nav__menu__hamburger__inner {
 	position: absolute;
@@ -55,12 +62,14 @@
 
 @media (max-width: 639px) {
 	.nav {
+		position: relative;
 		justify-content: space-between;
 	}
 	.nav__menu {
 		position: absolute;
 		z-index: 1;
 		transform: translateY(-120px);
+		font-size: 14px;
 		transition: transform .5s .2s ease-in-out;
 		background-color: rgba(140, 118, 118);
 	}
@@ -75,12 +84,11 @@
 	}
 	.navMenu--active {
 		position: absolute;
-		/* min-height: 120px; */
+		z-index: 2;
 		font-size: 14px;
-		background-color: rgba(140, 118, 118);
+		background-color: rgb(169, 107, 41);
 		transform: translateY(110px);
 		transition: transform .5s .2s ease-in-out;
-		/* z-index: -1; */
 	}
 
 	/* .navMenu--active .main__header {
