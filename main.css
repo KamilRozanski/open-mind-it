@@ -5,6 +5,8 @@ body {
 
 /*nav*/
 .nav {
+	position: fixed;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -30,6 +32,7 @@ body {
 	display: flex;
 	justify-content: space-around;
 	margin-left: 50px;
+	margin-right: 10px;
 	list-style-type: none;
 	font-size: 0.9em;
 	list-style: none;
@@ -56,23 +59,48 @@ body {
 .main {
 	max-width: 1920px;
 	margin: 0 auto;
+	height: 100vh;
+}
+
+.header {
+	padding-top: 80px;
+	min-height: 70vh;
+}
+.header__img {
+	min-height: 70vh;
 	background-image: url("assets/hero-img.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 100vh;
+	/* opacity: 0.1; */
+}
+.header__title {
+	padding: 50px 10px 30px 40px;
+}
+.header__text {
+	max-width: 750px;
+	margin: 50px 0;
+	padding: 0px 10px 30px 40px;
+	letter-spacing: 1px;
 }
 
-.main__header {
-	padding-top: 80px;
-	max-width: 500px;
-	margin: 0px 50px;
+/*hero*/
+.hero__about__company {
+	margin: 30px;
 }
-.main__header__h1 {
-	margin: 0px;
+
+.about__owner {
+	display: flex;
 }
-.main__header__p {
-	letter-spacing: 1px;
+.about__owner__img {
+	height: 500px;
+	width: 50vw;
+	background-color: rgb(0, 255, 17);
+}
+.about__owner__description {
+	height: 500px;
+	width: 50vw;
+	background-color: rgb(0, 4, 255);
 }
 /*footer*/
 .footer {
@@ -83,7 +111,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.872);
 	min-height: 50px;
 }
-.footer__p {
+.footer__text {
 	color: rgb(196, 196, 196);
 	margin: 0px 50px;
 }

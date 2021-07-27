@@ -9,11 +9,11 @@
 	border: none;
 	margin: 0 10px;
 }
-.nav__menu__hamburger--sticy {
+/* .nav__menu__hamburger--sticy {
 	position: fixed;
 	right: 0;
 	z-index: 9999;
-}
+} */
 
 .nav__menu__hamburger__box {
 	position: relative;
@@ -93,9 +93,5 @@
 		border-top: 1px solid #000;
 		/* transform: translateY(90%);
 		transition: transform .5s .2s ease-in-out; */
-	}
-
-	.main__header .navMenu--active {
-		margin-top: 120px;
 	}
 }
