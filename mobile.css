@@ -94,4 +94,24 @@
 		/* transform: translateY(90%);
 		transition: transform .5s .2s ease-in-out; */
 	}
+
+	.about__owner {
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 15px;
+	}
+	.about__owner__container {
+		margin: 0 auto;
+		max-width: 500px;
+		padding: 0px;
+		padding-top: 50px;
+	}
+	.about__owner__description {
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.about__owner__img {
+		transform: rotate(10deg);
+	}
 }
