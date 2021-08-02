@@ -1,6 +1,7 @@
 body {
 	font-size: 1em;
 	font-family: 'Lato', sans-serif;
+	scroll-behavior: smooth;
 }
 
 /*nav*/
@@ -38,6 +39,10 @@ body {
 	list-style: none;
 	padding-left: 0;
 	width: 100%;
+}
+
+.nav__menu__link {
+	text-decoration: none;
 }
 .nav__menu__li {
 	cursor: pointer;
@@ -108,7 +113,6 @@ body {
 }
 
 .about__owner__container {
-	max-height: 500px;
 	max-width: 50vw;
 	margin: 50px 50px;
 }
@@ -116,13 +120,11 @@ body {
 	letter-spacing: 1px;
 }
 .about__owner__img {
-	margin-top: 50px;
 	max-height: 500px;
-	width: 35vw;
-	background-size: cover;
+	max-width: 35vw;
+	object-fit: cover;
 	background-size: cover;
 	border-radius: 50px;
-	transform: rotate(10deg);
 }
 /*footer*/
 .footer {

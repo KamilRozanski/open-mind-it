@@ -81,6 +81,7 @@
 		margin-left: 0px;
 		width: 100%;
 	}
+	
 
 	.nav__menu__li {
 		padding: 5px;
@@ -101,8 +102,8 @@
 		padding: 15px;
 	}
 	.about__owner__container {
-		margin: 0 auto;
-		max-width: 500px;
+		margin: 20px;
+		max-width: 90vw;
 		padding: 0px;
 		padding-top: 50px;
 	}
@@ -112,6 +113,7 @@
 	}
 
 	.about__owner__img {
-		transform: rotate(10deg);
+		border-radius: 50px;
+		max-width: 80vw;
 	}
 }
