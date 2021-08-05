@@ -2,6 +2,7 @@ body {
 	font-size: 1em;
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
+	color: #3c3c3c;
 }
 
 /*nav*/
@@ -47,7 +48,7 @@ body {
 }
 .nav__menu__li {
 	cursor: pointer;
-	color: #000;
+	color: #3c3c3c;
 	background-position: -30px;
 	transition: .2s ease-in-out;
 }
@@ -120,7 +121,7 @@ body {
 
 .about__owner__description {
 	letter-spacing: 1px;
-	color: #000;
+	color: #3c3c3c;
 }
 .about__owner__img {
 	max-width: 35vw;
@@ -134,8 +135,9 @@ body {
 	display: flex;
 	justify-content: center;
 	justify-content: space-around;
+	flex-direction: column;
 	flex-wrap: wrap;
-	margin: 40px 0px;
+	margin: 100px 0px;
 }
 .project {
 	position: relative;
@@ -145,12 +147,24 @@ body {
 	border-radius: 50px;
 	overflow: hidden;
 }
+
 .project__title {
 	padding: 10px 15px;
 }
 .project__description {
 	padding: 10px 15px;
 }
+.projects a {
+	display: flex;
+	background-color: green;
+	width: 100px;
+}
+.project__description__demo {
+	color: #3c3c3c;
+
+	border-radius: 10%;
+}
+
 .project__background {
 	position: absolute;
 	top: 0;
@@ -158,7 +172,6 @@ body {
 	width: 100%;
 	height: 100%;
 	background-image: url(../open-mind-it/assets/project.jpg);
-	/* background-position: center; */
 	background-size: cover;
 	opacity: 1;
 	transition: .3s ease-in-out;
