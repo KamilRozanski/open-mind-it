@@ -135,10 +135,11 @@ body {
 	display: flex;
 	justify-content: center;
 	justify-content: space-around;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 	margin: 100px 0px;
 }
+
 .project {
 	position: relative;
 	width: 400px;
@@ -156,8 +157,8 @@ body {
 }
 .projects a {
 	display: flex;
-	background-color: green;
 	width: 100px;
+	margin: 10px 20px;
 }
 .project__description__demo {
 	color: #3c3c3c;
