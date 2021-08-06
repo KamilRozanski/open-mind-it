@@ -95,11 +95,14 @@
 	}
 
 	.about__owner {
+		width: 100%;
 		flex-direction: column;
-		justify-content: space-between;
-		padding: 15px;
+		/* justify-content: space-between; */
+		/* padding: 15px; */
 	}
 	.about__owner__container {
+		display: flex;
+		justify-content: center;
 		margin: 20px;
 		max-width: 90vw;
 		padding: 0px;

@@ -110,6 +110,7 @@ body {
 	width: 100vw;
 	border-bottom: 1px black solid;
 	padding-bottom: 80px;
+	margin: 0 auto;
 }
 .about__owner {
 	width: 100vw;
