@@ -71,8 +71,7 @@
 	.nav__menu {
 		display: none;
 		font-size: 14px;
-		/* transform: translateY(-100%); */
-		/* transition: transform .5s .2s ease-in-out; */
+
 		background-color: transparent;
 	}
 
