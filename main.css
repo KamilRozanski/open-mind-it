@@ -114,7 +114,7 @@ body {
 }
 .about__owner {
 	width: 90vw;
-	margin: 0 auto;
+	margin: 80px auto;
 	display: flex;
 	flex-direction: row;
 	justify-self: center;
@@ -124,7 +124,8 @@ body {
 	background-size: cover;
 	box-shadow: 32px 32px 64px #828282, -32px -32px 64px #ffffff;
 }
-.about__open-mind__title {
+.about__open-mind__title,
+.technology__title {
 	padding: 50px 15px 30px 15px;
 	text-align: center;
 }
@@ -134,7 +135,8 @@ body {
 	padding: 0px 30px;
 }
 
-.about__open-mind__text {
+.about__open-mind__text,
+.technology__description {
 	margin: 50px 0px;
 	padding: 0 30px;
 	letter-spacing: 1px;
@@ -159,6 +161,8 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	margin: 100px 0px;
+	border-bottom: 1px solid black;
+	padding-bottom: 80px;
 }
 
 .project {
