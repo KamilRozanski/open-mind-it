@@ -241,6 +241,35 @@ body {
 	opacity: 0.2;
 	filter: blur(4px);
 }
+
+/*Technology*/
+
+.technology__icons {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	width: 90vw;
+	margin: 80px auto;
+	padding: 5px;
+}
+.technology__icon__wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 10px;
+	padding: 20px;
+	box-shadow: 12px 12px 14px #828282, 12px 12px 14px #ffffff;
+}
+.technology__icon {
+	width: 100px;
+	height: 100px;
+}
+
+.technology__icons__descriptions {
+	margin-left: 15px;
+	font-size: 14px;
+}
+
 /*footer*/
 .footer {
 	font-size: 0.7em;
