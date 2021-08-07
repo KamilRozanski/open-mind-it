@@ -123,6 +123,7 @@ body {
 	background-position: center;
 	background-size: cover;
 	box-shadow: 32px 32px 64px #828282, -32px -32px 64px #ffffff;
+	border-radius: 50px;
 }
 .about__open-mind__title,
 .technology__title {
