@@ -289,21 +289,24 @@ body {
 .contact {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	justify-content: space-between;
-	width: 80vw;
-	margin: 80px auto;
+	margin: 20px 10px;
+	padding: 20px;
 }
 
 .contact__form__wrapper {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	
+	margin: 20px 10px;
 }
 .contact__other__wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
+	margin: 20px 10px;
+	padding: 20px;
 }
 .contact__phone__img,
 .contact__mail__img {
@@ -338,11 +341,14 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	max-width: 90vw;
+	margin: 0 auto;
 }
 .contact__label {
 	margin: 20px 0;
 }
 .contact__input {
+	max-width: 200px;
 	padding: 5px;
 	border-radius: 5px;
 	border: 0.5px solid black;
@@ -353,6 +359,7 @@ body {
 	border: 2px solid #3c3c3c;
 }
 .contact__textarea {
+	max-width: 500px;
 	padding: 5px;
 	resize: none;
 	border-radius: 5px;
