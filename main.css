@@ -243,7 +243,10 @@ body {
 }
 
 /*Technology*/
-
+.technology {
+	border-bottom: 1px solid black;
+	margin-bottom: 80px;
+}
 .technology__icons {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
