@@ -301,8 +301,15 @@ body {
 .contact__other__wrapper {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	margin: 0 auto;
+	align-items: center;
+	justify-content: space-around;
+	border: 1px solid red;
+}
+.contact__phone__img,
+.contact__mail__img {
+	max-width: 100px;
+	max-height: 100px;
+	cursor: pointer;
 }
 .contact__form {
 	display: flex;
@@ -349,12 +356,6 @@ body {
 	border: 1px solid #3c3c3c;
 	color: #3c3c3c;
 	transform: scale(1.1);
-}
-
-.contact__phone__img,
-.contact__mail__img {
-	max-width: 100px;
-	max-height: 100px;
 }
 
 /*footer*/

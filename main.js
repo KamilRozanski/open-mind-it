@@ -17,3 +17,16 @@ function fixedMenu() {
 }
 
 window.addEventListener("scroll", fixedMenu)
+
+
+// show/hide phone/email
+
+const mobilePhoneIcon = document.querySelector(".contact__phone__img")
+const mobileNumber = document.querySelector(".contact__phone__despription")
+const mobileMailIcon = document.querySelector(".contact__mail__img")
+
+function showHideElement(el) {
+    el.innerHTML = "dupa"
+}
+
+mobilePhoneIcon.addEventListener("click", showHideElement(mobileNumber))
