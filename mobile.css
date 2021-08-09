@@ -111,4 +111,24 @@
 	.technology__icons {
 		grid-template-columns: 1fr;
 	}
+	.contact {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin: 80px auto;
+	}
+
+	.contact__form__wrapper {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.contact__form {
+		margin: 80px 0;
+	}
+	.contact__phone__despription,
+	.contact__mail__despription {
+		margin: 50px 0px 100px 0px;
+	}
 }
