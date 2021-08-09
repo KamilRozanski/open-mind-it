@@ -332,16 +332,25 @@
             </section>
         </section>
         <section class="contact">
-            <div class="contact__wrapper">
-                <form action="#" method="post">
-                    <label from="name">Name</label>
-                    <input type="text" id="name" name="name">
-                    <label from="contact__number">Contact Number</label>
-                    <input type="number" id="number" name="number">
-                    <label from="msg">Your message</label>
-                    <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10"></textarea>
+            <div class="contact__form__wrapper">
+                <form class="contact__form" action="#" method="post">
+                    <label class="contact__label" from="name">Name</label>
+                    <input class="contact__input" type="text" id="name" name="name" placeholder="your name">
+                    <label class="contact__label" from="contact__number">Contact Number</label>
+                    <input class="contact__input" type="number" id="number" name="number" placeholder="contact number">
+                    <label class="contact__label" from="msg">Your message</label>
+                    <textarea class="contact__textarea" name="message" id="message" cols="50" rows="10"
+                        placeholder="message"></textarea>
+                    <input class="contact__form__submit" type="submit" value="Submit">
                 </form>
+                <div class="contact__other__wrapper">
+                    <img class="contact__phone__img" src="../open-mind-it/assets/smartphone.png" alt="phone image">
+                    <p class="contact__phone__despription">call us</p>
+                    <img class="contact__mail__img" src="../open-mind-it/assets/gmail.png" alt="mail image">
+                    <p class="contact__phone__despription">Send us an email</p>
+                </div>
             </div>
+
         </section>
         <footer class="footer">
             <p class="footer__text">&copy All Right reserved 2021. Kamil Rozanski Open-Mind-IT </p>

@@ -286,18 +286,74 @@ body {
 .contact {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	justify-content: space-between;
 	width: 80vw;
 	margin: 80px auto;
 }
-.contact__wrapper {
+
+.contact__form__wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.contact__other__wrapper {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+}
+.contact__form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact__label {
+	margin: 20px 0;
+}
+.contact__input {
+	padding: 5px;
+	border-radius: 5px;
+	border: 0.5px solid black;
+	outline: none;
+	transition: .3 ease-in-out;
+}
+.contact__input:focus {
+	border: 2px solid #3c3c3c;
 }
 .contact__textarea {
-	width: 200px;
+	padding: 5px;
+	resize: none;
+	border-radius: 5px;
+	outline: none;
 }
+.contact__textarea:focus {
+	border: 2px solid #3c3c3c;
+}
+
+.contact__form__submit {
+	height: 30px;
+	margin: 20px 150px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	background-color: #3c3c3c;
+	color: #fff;
+	border: none;
+	transition: .2s ease-in-out;
+}
+.contact__form__submit:hover {
+	background-color: transparent;
+	border: 1px solid #3c3c3c;
+	color: #3c3c3c;
+	transform: scale(1.1);
+}
+
+.contact__phone__img,
+.contact__mail__img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
 /*footer*/
 .footer {
 	font-size: 0.7em;
