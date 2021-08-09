@@ -23,10 +23,29 @@ window.addEventListener("scroll", fixedMenu)
 
 const mobilePhoneIcon = document.querySelector(".contact__phone__img")
 const mobileNumber = document.querySelector(".contact__phone__despription")
-const mobileMailIcon = document.querySelector(".contact__mail__img")
+const mailIcon = document.querySelector(".contact__mail__img")
+const mailAddress = document.querySelector(".contact__mail__despription")
+
 
 function showHideElement(el) {
-    el.innerHTML = "dupa"
+
+    el.classList.toggle("contact__despription__active--js")
+    if (mobileNumber.classList.contains("contact__despription__active--js")) {
+        el.innerHTML = "07482200820"
+        console.log("elo")
+    } else {
+        el.innerHTML = "Call us"
+    } 
+    // if (mailAddress.classList.contains("contact__despription__active--js")) {
+    //     el.innerHTML = "info@open-mind-it"
+    // } else {
+    //     el.innerHTML = "Send to us an email"
+    // }
 }
 
-mobilePhoneIcon.addEventListener("click", showHideElement(mobileNumber))
+mobilePhoneIcon.addEventListener("click", function () {
+    showHideElement(mobileNumber)
+})
+mailIcon.addEventListener("click", function () {
+    showHideElement(mailAddress)
+})
