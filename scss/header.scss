@@ -1,0 +1,19 @@
+.header {
+	padding-top: 80px;
+	min-height: 100vh;
+}
+.header__img {
+	min-height: 100vh;
+	background-image: url(../assets/hero-img.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.header__title {
+	padding: 50px 15px 30px 30px;
+}
+.header__text {
+	max-width: 700px;
+	margin: 50px 0;
+	padding: 0px 30px;
+}

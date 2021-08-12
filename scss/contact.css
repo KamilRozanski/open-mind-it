@@ -1,0 +1,110 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 10px;
+  padding: 20px;
+}
+
+.contact .contact__form__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 10px;
+}
+
+.contact .contact__other__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 10px;
+  padding: 20px;
+}
+
+.contact .contact__other__wrapper .contact__phone__img,
+.contact .contact__other__wrapper .contact__mail__img {
+  max-width: 100px;
+  max-height: 100px;
+  cursor: pointer;
+  transition: .1s ease-in-out;
+}
+
+.contact .contact__other__wrapper .contact__phone__img:hover,
+.contact .contact__other__wrapper .contact__mail__img:hover {
+  transform: scale(1.1);
+}
+
+.contact .contact__other__wrapper .contact__mail__despription,
+.contact .contact__other__wrapper .contact__phone__despription {
+  width: 150px;
+  padding: 5px 15px;
+  border: 2px solid #3c3c3c;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #3c3c3c;
+  transition: .2s ease-in-out;
+  text-align: center;
+}
+
+.contact .contact__other__wrapper .contact__despription__active--js {
+  background-color: transparent;
+  color: #3c3c3c;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.contact__form .contact__label {
+  margin: 20px 0;
+}
+
+.contact__form .contact__input {
+  max-width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+  outline: none;
+  transition: .3 ease-in-out;
+}
+
+.contact__form .contact__input:focus {
+  border: 2px solid #3c3c3c;
+}
+
+.contact__form .contact__textarea {
+  max-width: 500px;
+  padding: 5px;
+  resize: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.contact__form .contact__textarea:focus {
+  border: 2px solid #3c3c3c;
+}
+
+.contact__form .contact__form__submit {
+  height: 30px;
+  margin: 20px 150px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  background-color: #3c3c3c;
+  color: #fff;
+  border: none;
+  transition: .2s ease-in-out;
+}
+
+.contact__form .contact__form__submit:hover {
+  background-color: transparent;
+  border: 1px solid #3c3c3c;
+  color: #3c3c3c;
+  transform: scale(1.1);
+}
