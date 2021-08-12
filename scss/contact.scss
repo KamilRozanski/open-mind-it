@@ -1,5 +1,6 @@
 $font-color-light: #fff;
 $font-color-dark: #3c3c3c;
+$media-mobile: (max-width: 640px);
 
 .contact {
 	display: flex;
@@ -97,4 +98,38 @@ $font-color-dark: #3c3c3c;
 		color: $font-color-dark;
 		transform: scale(1.1);
 	}
+}
+
+/*media*/
+@media ($media-mobile) {
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin: 80px auto;
+}
+
+.contact__form__wrapper {
+	grid-template-columns: 1fr;
+}
+
+.contact__form {
+	align-items: center;
+}
+
+.contact__textarea {
+	max-width: 300px;
+}
+
+.contact__phone__img,
+.contact__mail__img {
+	max-width: 80px;
+}
+
+.contact__phone__despription,
+.contact__mail__despription,
+.contact__form__submit {
+	margin: 30px 5px 50px;
 }
