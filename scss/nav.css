@@ -13,21 +13,21 @@
   z-index: 99;
 }
 
-.nav__logo__image {
+.nav .nav__logo__image {
   max-width: 100px;
   max-height: 100px;
   margin-left: 50px;
   cursor: pointer;
 }
 
-.nav__menu {
+.nav .nav__menu {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
 
-.nav__menu__ul {
+.nav .nav__menu .nav__menu__ul {
   display: flex;
   justify-content: space-around;
   margin-left: 50px;
@@ -39,18 +39,18 @@
   width: 100%;
 }
 
-.nav__menu__link {
+.nav .nav__menu .nav__menu__ul .nav__menu__link {
   text-decoration: none;
 }
 
-.nav__menu__li {
+.nav .nav__menu .nav__menu__ul .nav__menu__link .nav__menu__li {
   cursor: pointer;
   color: #3c3c3c;
   background-position: -30px;
   transition: .2s ease-in-out;
 }
 
-.nav__menu__li:hover {
+.nav .nav__menu .nav__menu__ul .nav__menu__link .nav__menu__li:hover {
   background: #c4c4c4;
   background: linear-gradient(90deg, #c4c4c4 0%, #c7ac2a 2%, #ff3100 100%);
   background-position: 0px;

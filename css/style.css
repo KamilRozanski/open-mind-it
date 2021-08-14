@@ -22,10 +22,13 @@ sans-serif;
 $font-russo: 'Russo One',
 sans-serif;
 $font-ranchers:'Ranchers', */
+
 body {
 	font-size: 1em;
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
+	margin: 0px;
+	padding: 0px;
 }
 
 /*nav*/

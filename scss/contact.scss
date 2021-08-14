@@ -1,6 +1,9 @@
 $font-color-light: #fff;
 $font-color-dark: #3c3c3c;
-$media-mobile: (max-width: 640px);
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1200px;
 
 .contact {
 	display: flex;
@@ -101,7 +104,7 @@ $media-mobile: (max-width: 640px);
 }
 
 /*media*/
-@media ($media-mobile) {
+@media (max-width: ($screen-md-min)) {
 }
 .contact {
 	display: flex;
