@@ -10,7 +10,11 @@
   padding: 80px 0;
 }
 
-.project {
+.project__wrapper {
+  margin: 25px;
+}
+
+.project__wrapper .project {
   position: relative;
   max-width: 400px;
   height: 400px;
@@ -20,63 +24,15 @@
   box-shadow: 32px 32px 64px #828282, -32px -32px 64px #ffffff;
 }
 
-.project__wrapper {
-  margin: 25px;
-}
-
-.project__links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.project__title {
+.project__wrapper .project .project__title {
   padding: 10px 15px;
 }
 
-.project__description {
+.project__wrapper .project .project__description {
   padding: 10px 15px;
 }
 
-.project__links {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 20px 0;
-  height: 50px;
-}
-
-.project__link {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  text-decoration: none;
-  border-bottom: 0px solid black;
-  transition: .1s;
-  padding-bottom: 3px;
-  height: 50px;
-}
-
-.project__demo,
-.project__code {
-  border: none;
-  padding-left: 15px;
-  color: #3c3c3c;
-  background-color: transparent;
-  transition: .3s;
-  cursor: pointer;
-}
-
-.project__link:hover {
-  border-bottom: 1.5px #3c3c3c solid;
-}
-
-.project__links__img {
-  width: 25px;
-  height: 25px;
-}
-
-.project__background {
+.project__wrapper .project .project__background {
   position: absolute;
   top: 0;
   left: 0px;
@@ -89,8 +45,46 @@
   object-fit: contain;
 }
 
-.project__background:hover {
+.project__wrapper .project .project__background:hover {
   transform: scale(1.2);
   opacity: 0.2;
   filter: blur(4px);
+}
+
+.project__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0;
+  height: 50px;
+}
+
+.project__links .project__link {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-decoration: none;
+  border-bottom: 0px solid black;
+  transition: .1s;
+  padding-bottom: 3px;
+  height: 50px;
+}
+
+.project__links .project__link .project__links__img {
+  width: 25px;
+  height: 25px;
+}
+
+.project__links .project__link .project__demo,
+.project__links .project__link .project__code {
+  border: none;
+  padding-left: 15px;
+  color: #3c3c3c;
+  background-color: transparent;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.project__links .project__link:hover {
+  border-bottom: 1.5px #3c3c3c solid;
 }
