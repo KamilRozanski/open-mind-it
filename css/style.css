@@ -26,7 +26,7 @@ sans-serif;
 $font-ranchers:'Ranchers', */
 
 body {
-	font-size: 10em;
+	font-size: 1em;
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
 }
