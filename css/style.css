@@ -27,7 +27,7 @@ body {
 	font-size: 1em;
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
-	background-color: black;
+	background-color: rgb(189, 178, 178);
 }
 .main {
 	max-width: 1920px;
