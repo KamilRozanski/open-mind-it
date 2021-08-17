@@ -1,5 +1,5 @@
-@import "../scss/nav.css";
-@import url(/scss/header.css);
+@import "/scss/nav.css";
+@import "/scss/header.css";
 @import url(/scss/hero.css);
 @import url(/scss/projects.css);
 @import url(/scss/technology.css);
