@@ -1,4 +1,4 @@
-@import url(../scss/nav.scss);
+@import "../scss/nav.css";
 @import url(/scss/header.css);
 @import url(/scss/hero.css);
 @import url(/scss/projects.css);
