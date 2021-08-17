@@ -6,8 +6,7 @@
 @import url(/scss/contact.css);
 @import url(/scss/footer.css);
 @import url(/css/normalize.css);
-@import url(pwd
-/scss/mobile.css);
+@import url(/scss/mobile.scss);
 
 /* $white: #fff;
 $dark-white: #F3F3F3;
@@ -28,6 +27,7 @@ body {
 	font-size: 1em;
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
+	background-color: black;
 }
 .main {
 	max-width: 1920px;
