@@ -1,103 +1,104 @@
-$font-color-light: #fff;
-$font-color-dark: #3c3c3c;
-$screen-sm-min: 576px;
-$screen-md-min: 768px;
-$screen-lg-min: 992px;
-$screen-xl-min: 1200px;
+// $font-color-light: #fff;
+// $font-color-dark: #3c3c3c;
+// $screen-sm-min: 576px;
+// $screen-md-min: 768px;
+// $screen-lg-min: 992px;
+// $screen-xl-min: 1200px;
 
-.contact {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
-	margin: 20px 10px;
-	padding: 20px;
-	.contact__form__wrapper {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		margin: 20px 10px;
-		.contact__form {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			max-width: 90vw;
-			margin: 0 auto;
-			.contact__label {
-				margin: 20px 0;
-			}
-			.contact__input {
-				max-width: 200px;
-				padding: 5px;
-				border-radius: 5px;
-				border: 0.5px solid black;
-				outline: none;
-				transition: .3 ease-in-out;
-			}
-			.contact__input:focus {
-				border: 2px solid $font-color-dark;
-			}
-			.contact__textarea {
-				max-width: 500px;
-				padding: 5px;
-				resize: none;
-				border-radius: 5px;
-				outline: none;
-			}
-			.contact__textarea:focus {
-				border: 2px solid $font-color-dark;
-			}
-			.contact__form__submit {
-				height: 30px;
-				margin: 20px 150px;
-				padding: 5px 10px;
-				border-radius: 5px;
-				outline: none;
-				cursor: pointer;
-				background-color: $font-color-dark;
-				color: $font-color;
-				border: none;
-				transition: .2s ease-in-out;
-			}
-			.contact__form__submit:hover {
-				background-color: transparent;
-				border: 1px solid $font-color-dark;
-				color: $font-color-dark;
-				transform: scale(1.1);
-			}
-		}
-	}
-	.contact__other__wrapper {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-around;
-		margin: 20px 10px;
-		padding: 20px;
-		.contact__phone__img,
-		.contact__mail__img {
-			max-width: 100px;
-			max-height: 100px;
-			cursor: pointer;
-			transition: .1s ease-in-out;
-		}
-		.contact__phone__img:hover,
-		.contact__mail__img:hover {
-			transform: scale(1.1);
-		}
-		.contact__mail__despription,
-		.contact__phone__despription {
-			width: 150px;
-			padding: 5px 15px;
-			border: 2px solid $font-color-dark;
-			border-radius: 5px;
-			color: $font-color-light;
-			background-color: $font-color-dark;
-			transition: .2s ease-in-out;
-			text-align: center;
-		}
-	}
-}
-.contact__despription__active--js {
-	background-color: transparent;
-	color: $font-color-dark;
-}
+// .contact {
+// 	display: flex;
+// 	flex-direction: column;
+// 	align-items: center;
+// 	justify-content: space-between;
+// 	margin: 20px 10px;
+// 	padding: 20px;
+// }
+// .contact__form__wrapper {
+// 	display: grid;
+// 	grid-template-columns: 1fr 1fr;
+// 	margin: 20px 10px;
+// 	.contact__form {
+// 		display: flex;
+// 		flex-direction: column;
+// 		justify-content: center;
+// 		max-width: 90vw;
+// 		margin: 0 auto;
+// 		.contact__label {
+// 			margin: 20px 0;
+// 		}
+// 		.contact__input {
+// 			max-width: 200px;
+// 			padding: 5px;
+// 			border-radius: 5px;
+// 			border: 0.5px solid black;
+// 			outline: none;
+// 			transition: .3 ease-in-out;
+// 		}
+// 		.contact__input:focus {
+// 			border: 2px solid $font-color-dark;
+// 		}
+// 		.contact__textarea {
+// 			max-width: 500px;
+// 			padding: 5px;
+// 			resize: none;
+// 			border-radius: 5px;
+// 			outline: none;
+// 		}
+// 		.contact__textarea:focus {
+// 			border: 2px solid $font-color-dark;
+// 		}
+// 		.contact__form__submit {
+// 			height: 30px;
+// 			margin: 20px 150px;
+// 			padding: 5px 10px;
+// 			border-radius: 5px;
+// 			outline: none;
+// 			cursor: pointer;
+// 			background-color: $font-color-dark;
+// 			color: $font-color;
+// 			border: none;
+// 			transition: .2s ease-in-out;
+// 		}
+// 		.contact__form__submit:hover {
+// 			background-color: transparent;
+// 			border: 1px solid $font-color-dark;
+// 			color: $font-color-dark;
+// 			transform: scale(1.1);
+// 		}
+// 	}
+// }
+// .contact__other__wrapper {
+// 	display: flex;
+// 	flex-direction: column;
+// 	align-items: center;
+// 	justify-content: space-around;
+// 	margin: 20px 10px;
+// 	padding: 20px;
+// 	.contact__phone__img,
+// 	.contact__mail__img {
+// 		max-width: 100px;
+// 		max-height: 100px;
+// 		cursor: pointer;
+// 		transition: .1s ease-in-out;
+// 	}
+// 	.contact__phone__img:hover,
+// 	.contact__mail__img:hover {
+// 		transform: scale(1.1);
+// 	}
+// 	.contact__mail__despription,
+// 	.contact__phone__despription {
+// 		width: 150px;
+// 		padding: 5px 15px;
+// 		border: 2px solid $font-color-dark;
+// 		border-radius: 5px;
+// 		color: $font-color-light;
+// 		background-color: $font-color-dark;
+// 		transition: .2s ease-in-out;
+// 		text-align: center;
+// 	}
+// }
+
+// .contact__despription__active--js {
+// 	background-color: transparent;
+// 	color: $font-color-dark;
+// }
