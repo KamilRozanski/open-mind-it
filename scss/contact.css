@@ -1,11 +1,4 @@
-@import url(../scss/nav.css);
-@import url(../scss/header.css);
-@import url(../scss/hero.css);
-@import url(../scss/projects.css);
-@import url(../scss/technology.css);
-@import url(../scss/contact.css);
-@import url(../scss/footer.css);
-@import url(../css/mobile.css);
+
 
 /* $white: #fff;
 $dark-white: #F3F3F3;
@@ -23,23 +16,7 @@ $font-russo: 'Russo One',
 sans-serif;
 $font-ranchers:'Ranchers', */
 
-body {
-	font-size: 1em;
-	font-family: 'Lato', sans-serif;
-	scroll-behavior: smooth;
-	margin: 0px;
-	padding: 0px;
-}
 
-/*nav*/
-
-/*main*/
-
-.main {
-	max-width: 1920px;
-	margin: 0 auto;
-	height: 100vh;
-}
 
 /*projects*/
 
@@ -48,12 +25,6 @@ body {
 /* contact*/
 
 /*footer*/
-
-
-
-
-
-
 
 /* $white: #fff;
 $dark-white: #F3F3F3;

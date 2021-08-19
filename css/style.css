@@ -1,12 +1,12 @@
 @import "/scss/nav.css";
 @import "/scss/header.css";
-@import url(/scss/hero.css);
-@import url(/scss/projects.css);
-@import url(/scss/technology.css);
-@import url(/scss/contact.css);
-@import url(/scss/footer.css);
-@import url(/css/normalize.css);
-@import url(/scss/mobile.css);
+@import "/scss/hero.css";
+@import "/scss/projects.css";
+@import "/scss/technology.css";
+/* @import "/scss/contact.css"; */
+@import "/scss/footer.css";
+@import "/css/normalize.css";
+@import "/scss/mobile.css";
 
 /* $white: #fff;
 $dark-white: #F3F3F3;
@@ -27,7 +27,6 @@ body {
 	font-size: 1em;
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
-	background-color: rgb(189, 178, 178);
 }
 .main {
 	max-width: 1920px;
