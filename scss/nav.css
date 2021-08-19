@@ -54,7 +54,6 @@
   background: #c4c4c4;
   background: linear-gradient(90deg, #c4c4c4 0%, #c7ac2a 2%, #ff3100 100%);
   background-position: 0px;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(1.1);
 }
