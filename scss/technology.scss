@@ -1,7 +1,7 @@
 .technology {
 	border-bottom: 1px solid black;
 	margin-bottom: 80px;
-	
+
 	.technology__title {
 		padding: 50px 15px 30px 15px;
 		text-align: center;
@@ -21,7 +21,7 @@
 	padding: 5px;
 	.technology__icon__wrapper {
 		display: flex;
-		justify-content: center;
+		justify-content: flex-start;
 		align-items: flex-start;
 		margin: 20px 10px;
 		padding: 20px;
@@ -35,7 +35,7 @@
 		}
 		.technology__icons__descriptions {
 			margin-left: 15px;
-			font-size: 14px;
+			font-size: 1.2rem;
 		}
 	}
 	.technology__icon__wrapper:hover {

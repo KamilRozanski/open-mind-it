@@ -25,7 +25,7 @@
 
 .technology__icons .technology__icon__wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   margin: 20px 10px;
   padding: 20px;
@@ -42,7 +42,7 @@
 
 .technology__icons .technology__icon__wrapper .technology__icons__descriptions {
   margin-left: 15px;
-  font-size: 14px;
+  font-size: 1.2rem;
 }
 
 .technology__icons .technology__icon__wrapper:hover {
