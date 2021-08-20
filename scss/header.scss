@@ -1,19 +1,28 @@
 .header {
-	padding-top: 80px;
+	position: relative;
+	margin-top: 150px;
 	min-height: 100vh;
 	.header__img {
-		min-height: 100vh;
+		opacity: .8;
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100vh;
+		width: 100vw;
 		background-image: url(../assets/hero-img.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
-		.header__title {
-			padding: 50px 15px 30px 30px;
-		}
-		.header__text {
-			max-width: 700px;
-			margin: 50px 0;
-			padding: 0px 30px;
-		}
+		background-attachment: fixed;
+	}
+	.header__title {
+		position: relative;
+		padding: 100px 15px 30px 30px;
+	}
+	.header__text {
+		position: relative;
+		max-width: 700px;
+		margin: 50px 0;
+		padding: 0px 30px;
 	}
 }
