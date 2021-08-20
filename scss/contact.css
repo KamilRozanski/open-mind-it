@@ -104,7 +104,7 @@
   text-align: center;
 }
 
-.contact__despription__active--js {
+.contact__other__wrapper .contact__despription__active--js {
   background-color: transparent;
   color: #3c3c3c;
 }

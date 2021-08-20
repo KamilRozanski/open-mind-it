@@ -96,9 +96,8 @@ $screen-xl-min: 1200px;
 		transition: .2s ease-in-out;
 		text-align: center;
 	}
-}
-
-.contact__despription__active--js {
-	background-color: transparent;
-	color: $font-color-dark;
+	.contact__despription__active--js {
+		background-color: transparent;
+		color: $font-color-dark;
+	}
 }
