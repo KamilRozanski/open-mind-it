@@ -1,7 +1,7 @@
 .header {
   position: relative;
   margin-top: 150px;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .header .header__img {
@@ -32,6 +32,6 @@
 
 @media (max-width: 1024px) {
   .header .header__img {
-    height: 80vh;
+    background-image: url(../assets/hero-img_1024.jpg);
   }
 }
