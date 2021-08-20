@@ -29,3 +29,9 @@
   margin: 50px 0;
   padding: 0px 30px;
 }
+
+@media (max-width: 1024px) {
+  .header .header__img {
+    height: 80vh;
+  }
+}

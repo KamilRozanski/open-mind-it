@@ -2,6 +2,7 @@
 	position: relative;
 	margin-top: 150px;
 	min-height: 100vh;
+
 	.header__img {
 		opacity: .8;
 		position: absolute;
@@ -24,5 +25,13 @@
 		max-width: 700px;
 		margin: 50px 0;
 		padding: 0px 30px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.header {
+		.header__img {
+			height: 80vh;
+		}
 	}
 }
