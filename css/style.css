@@ -3,7 +3,7 @@
 @import "../scss/hero.css";
 @import "../scss/projects.css";
 @import "../scss/technology.css";
-/* @import "/scss/contact.css"; */
+@import "/scss/contact.css";
 @import "../scss/footer.css";
 @import "../css/normalize.css";
 @import "../scss/mobile.css";
