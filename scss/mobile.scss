@@ -77,5 +77,8 @@
 		border-bottom: 1px solid #000;
 		border-top: 1px solid #000;
 		margin: 0 0;
+		visibility: visible;
+		opacity: 1;
+		transition: visibility 0s, opacity .5s linear;
 	}
 }

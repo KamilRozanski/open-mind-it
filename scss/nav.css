@@ -86,13 +86,14 @@
     justify-content: space-between;
   }
   .nav .nav__logo__image {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 100px;
+    max-height: 100px;
     margin-left: 25px;
     cursor: pointer;
   }
   .nav .nav__menu {
-    display: none;
+    visibility: hidden;
+    opacity: 0;
   }
   .nav .nav__menu .nav__menu__ul {
     display: flex;
