@@ -6,7 +6,11 @@ hamburgerMenu.addEventListener("click", function () {
     hamburgerMenu.classList.toggle("hamburger--active")
     navMenu.classList.toggle("navMenu--active")
 
-    console.log("click")
+    if (navMenu.classList.contains("navMenu--active")) {
+        navMenu.classList.remove("navMenu--no-active")
+    } else {
+        navMenu.classList.add("navMenu--no-active")
+    }
 })
 
 

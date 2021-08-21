@@ -91,10 +91,6 @@
     margin-left: 25px;
     cursor: pointer;
   }
-  .nav .nav__menu {
-    visibility: hidden;
-    opacity: 0;
-  }
   .nav .nav__menu .nav__menu__ul {
     display: flex;
     flex-direction: column;
