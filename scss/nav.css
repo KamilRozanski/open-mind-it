@@ -41,6 +41,8 @@
 
 .nav .nav__menu .nav__menu__ul .nav__menu__link {
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .nav .nav__menu .nav__menu__ul .nav__menu__link .nav__menu__li {
@@ -83,13 +85,26 @@
     height: 100px;
     justify-content: space-between;
   }
-  .nav .nav__menu {
-    display: none;
-  }
   .nav .nav__logo__image {
     max-width: 50%;
     max-height: 50%;
     margin-left: 25px;
     cursor: pointer;
+  }
+  .nav .nav__menu {
+    display: none;
+  }
+  .nav .nav__menu .nav__menu__ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  .nav .nav__menu .nav__menu__li {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2rem;
   }
 }
