@@ -62,11 +62,33 @@
 	transform: translateY(10px) rotate(-145deg);
 }
 
- @media (max-width: 640px) {
+@media (max-width: 640px) {
 	body {
 		font-size: 1.8em;
 	}
 	.nav__menu__hamburger {
 		display: block;
+	}
+	.nav__menu.navMenu--active {
+		position: relative;
+		top: 140px;
+		left: -100px;
+		display: flex;
+		font-size: 12px;
+		background-color: #fafafa;
+		border-top: 1px solid #000;
+		border: 2px solid red;
+	}
+	.nav__menu__ul {
+		display: flex;
+		flex-direction: column;
+		/* justify-content: center; */
+		/* align-items: center; */
+		padding: 0;
+		list-style-type: none;
+		text-align: center;
+	}
+	.nav__menu__link {
+		padding: 10px;
 	}
 }

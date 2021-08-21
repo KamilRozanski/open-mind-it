@@ -63,24 +63,7 @@
 	.nav__menu__hamburger {
 		display: block;
 	}
-	.nav {
-		justify-content: space-between;
-		flex-wrap: wrap;
-		.nav__menu {
-			display: none;
-			font-size: 14px;
-			background-color: transparent;
-			.nav__menu__ul {
-				flex-direction: column;
-				margin-left: 0px;
-				width: 100%;
-				.nav__menu__li {
-					padding: 5px;
-					text-align: center;
-				}
-			}
-		}
-	}
+
 
 	.nav__menu.navMenu--active {
 		display: block;
@@ -89,48 +72,6 @@
 		border-top: 1px solid #000;
 	}
 
-	.about__owner {
-		width: 100%;
-		flex-direction: column;
-		.about__owner__container {
-			margin: 0 auto;
-			max-width: 80vw;
-			padding: 50px 0;
-			.about__owner__img {
-				border-radius: 50px;
-				max-width: 80vw;
-				margin: 0;
-			}
-		}
-	}
 
-	.technology__icons {
-		grid-template-columns: 1fr;
-	}
-	.contact {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: center;
-		margin: 80px auto;
-		.contact__form__wrapper {
-			grid-template-columns: 1fr;
-			.contact__form {
-				align-items: center;
-				.contact__textarea {
-					max-width: 300px;
-				}
-			}
-			.contact__phone__img,
-			.contact__mail__img {
-				max-width: 80px;
-			}
-		}
-	}
-
-	.contact__phone__despription,
-	.contact__mail__despription,
-	.contact__form__submit {
-		margin: 30px 5px 50px;
-	}
-}
+	
+	

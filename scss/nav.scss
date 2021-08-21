@@ -85,10 +85,17 @@
 @media (max-width: 640px) {
 	.nav {
 		height: 100px;
+		justify-content: space-between;
+		.nav__menu {
+			display: none;
+		}
+		.nav__menu {
+			// width: 100vw;
+		}
 		.nav__logo__image {
 			max-width: 50%;
 			max-height: 50%;
-			margin-left: 20px;
+			margin-left: 25px;
 			cursor: pointer;
 		}
 	}

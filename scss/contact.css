@@ -51,8 +51,9 @@
 }
 
 .contact__form__wrapper .contact__form .contact__form__submit {
+  width: 150px;
   height: 40px;
-  margin: 20px 150px;
+  margin: 20px auto;
   padding: 5px 10px;
   border-radius: 5px;
   outline: none;

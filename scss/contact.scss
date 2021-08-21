@@ -50,8 +50,9 @@ $screen-xl-min: 1200px;
 			border: 2px solid $font-color-dark;
 		}
 		.contact__form__submit {
+			width: 150px;
 			height: 40px;
-			margin: 20px 150px;
+			margin: 20px auto;
 			padding: 5px 10px;
 			border-radius: 5px;
 			outline: none;
