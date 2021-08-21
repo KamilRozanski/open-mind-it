@@ -53,3 +53,9 @@
   transform: scale(1.2);
   transition: .2s ease-in-out;
 }
+
+@media (max-width: 1024px) {
+  .technology__icons {
+    grid-template-columns: 1fr;
+  }
+}

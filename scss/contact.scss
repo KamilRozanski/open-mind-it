@@ -17,12 +17,14 @@ $screen-xl-min: 1200px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	margin: 20px 10px;
+
 	.contact__form {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		max-width: 90vw;
 		margin: 0 auto;
+
 		.contact__label {
 			margin: 20px 0;
 		}
@@ -99,5 +101,19 @@ $screen-xl-min: 1200px;
 	.contact__despription__active--js {
 		background-color: transparent;
 		color: $font-color-dark;
+	}
+}
+
+@media (max-width: 1024px) {
+	.contact__form__wrapper {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin: 20px 10px;
+		.contact__label {
+			text-align: center;
+		}
+		.contact__input {
+			margin: 0 auto;
+		}
 	}
 }

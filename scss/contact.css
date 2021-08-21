@@ -108,3 +108,17 @@
   background-color: transparent;
   color: #3c3c3c;
 }
+
+@media (max-width: 1024px) {
+  .contact__form__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px 10px;
+  }
+  .contact__form__wrapper .contact__label {
+    text-align: center;
+  }
+  .contact__form__wrapper .contact__input {
+    margin: 0 auto;
+  }
+}

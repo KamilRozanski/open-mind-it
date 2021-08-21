@@ -67,11 +67,17 @@
 @media (max-width: 1024px) {
 	.nav {
 		.nav__logo__image {
-			margin-left: 0px;
+			max-width: 70%;
+			max-height: 70%;
+			margin-left: 10px;
+			cursor: pointer;
 		}
 		.nav__menu {
-			width: auto;
 			margin: 0 10px;
+		}
+		.nav__menu__li {
+			font-size: 1rem;
+			padding: 10px;
 		}
 	}
 }

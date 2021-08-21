@@ -41,3 +41,19 @@
 		margin-top: 100px;
 	}
 }
+
+@media (max-width: 1024px) {
+	.about__owner {
+		flex-direction: column;
+		align-items: center;
+	}
+	.about__owner__container {
+		max-width: 100vw;
+		padding: 0px 30px;
+		.about__owner__img {
+			max-width: 100vw;
+			object-fit: contain;
+			margin-top: 20px;
+		}
+	}
+}
