@@ -13,3 +13,7 @@ if(isset($_POST['submit'])) {
     header("Location: index.php?mailsend");
 }
 ?>
+
+
+Hi <?php echo htmlspecialchars($_POST['name']); ?>.
+You are <?php echo (int)$_POST['age']; ?> years old.
