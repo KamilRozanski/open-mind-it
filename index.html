@@ -331,10 +331,10 @@
         </section>
         <section id="contact-id" class="contact">
             <div class="contact__form__wrapper">
-                <form class="contact__form" action="contactForm.php" method="POST">
+                <form class="contact__form" action="https://formspree.io/f/mleaadbr" method="POST">
                     <label class="contact__label" from="name">Your name</label>
-                    <input class="contact__input" r type="text" id="name" name="name" placeholder="John"
-                        pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$">
+                    <input class="contact__input" required type="text" id="name" name="name" placeholder="John"
+                        pattern="\b([A-ZÀ-ÿ][-,a-z. ']+[ ]*)+">
                     <label class="contact__label" class="contact__number">Contact number</label>
                     <input class="contact__input" type="tel" id="number" name="number" placeholder="600200800"
                         pattern="[0-9]{3}[0-9]{3}[0-9]{3}">
@@ -366,11 +366,7 @@
 
         </footer>
 
-        <form action="../open-mind-it/contactForm.php" method="post">
-            <p>Your name: <input type="text" name="name" /></p>
-            <p>Your age: <input type="text" name="age" /></p>
-            <p><input type="submit" /></p>
-        </form>
+
     </main>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <script src="main.js"></script>
