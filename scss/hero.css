@@ -1,32 +1,29 @@
 .about__open-mind {
   width: 100vw;
   padding-bottom: 80px;
-  margin: 0 auto;
+  margin: 0px auto;
+  background-color: #3c3c3c;
+  color: #fff;
 }
 
 .about__open-mind .about__open-mind__title {
-  padding: 50px 15px 30px 15px;
+  margin: 0px;
+  padding: 100px 15px 30px 15px;
   text-align: center;
 }
 
 .about__open-mind .about__open-mind__descroptions {
-  margin: 50px 0px;
   padding: 0 30px;
   letter-spacing: 1px;
 }
 
 .about__owner {
-  width: 90vw;
-  margin: 20px auto 80px auto;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-self: center;
   align-items: flex-start;
-  background-image: url(../assets/about__owner__bgc.jpg);
-  background-position: center;
-  background-size: cover;
-  box-shadow: 32px 32px 64px #828282, -32px -32px 64px #ffffff;
-  border-radius: 50px;
+  background-color: #f19b29;
 }
 
 .about__owner .about__owner__description {
@@ -36,8 +33,7 @@
 
 .about__owner__container {
   max-width: 50vw;
-  margin: 50px 0px;
-  padding: 0px 30px;
+  padding: 50px 30px;
 }
 
 .about__owner__container .about__owner__img {

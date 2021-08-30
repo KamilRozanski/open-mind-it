@@ -14,7 +14,7 @@
   top: 0;
   bottom: 0;
   z-index: -1;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .header .header__title {
@@ -27,12 +27,6 @@
   max-width: 700px;
   margin: 50px 0;
   padding: 0px 30px;
-}
-
-@media (max-width: 1024px) {
-  .header .header__img {
-    background-image: url(../assets/hero-img_1024.jpg);
-  }
 }
 
 @media (max-width: 640px) {
