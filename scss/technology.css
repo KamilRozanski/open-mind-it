@@ -2,10 +2,12 @@
   position: relative;
   border-bottom: 1px solid black;
   margin-bottom: 80px;
+  background-color: #f0eeee;
 }
 
 .technology .technology__title {
-  padding: 50px 15px 30px 15px;
+  margin: 0px;
+  padding: 100px 15px;
   text-align: center;
 }
 
@@ -33,6 +35,7 @@
   box-shadow: 12px 12px 14px #828282, 12px 12px 14px #ffffff;
   border-radius: 30px;
   transition: .2s ease-in-out;
+  background-color: #fff;
 }
 
 .technology__icons .technology__icon__wrapper .technology__icon {
