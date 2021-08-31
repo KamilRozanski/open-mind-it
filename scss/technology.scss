@@ -2,14 +2,24 @@
 	position: relative;
 	border-bottom: 1px solid black;
 	margin-bottom: 80px;
-	background-color: rgb(240, 238, 238);
 
+	.technology__background {
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		background-image: url(../assets/technology.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+		opacity: .5;
+	}
 	.technology__title {
+		position: relative;
 		margin: 0px;
 		padding: 100px 15px;
 		text-align: center;
 	}
 	.technology__description {
+		position: relative;
 		margin: 50px 0px;
 		padding: 0 30px;
 		letter-spacing: 1px;

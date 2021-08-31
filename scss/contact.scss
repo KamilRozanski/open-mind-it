@@ -10,8 +10,8 @@ $screen-xl-min: 1200px;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	margin: 20px 10px;
-	padding: 20px;
+	padding: 100px;
+	background-color: #e0e2db;
 }
 .contact__form__wrapper {
 	display: grid;
@@ -30,7 +30,7 @@ $screen-xl-min: 1200px;
 		}
 		.contact__input {
 			max-width: 200px;
-			padding: 5px;
+			padding: 5px 10px;
 			border-radius: 5px;
 			border: 0.5px solid black;
 			outline: none;
