@@ -5,7 +5,7 @@
 	background-color: #5f7470;
 	color: rgb(235, 230, 230);
 	.about__open-mind__title {
-		padding: 100px  15px;
+		padding: 100px 15px;
 		text-align: center;
 		margin: 0px;
 	}
@@ -18,11 +18,12 @@
 .about__owner {
 	width: 100vw;
 	display: flex;
+	justify-content: center;
 	flex-direction: row;
 	justify-self: center;
 	align-items: flex-start;
 	background-color: #e0e2db;
-	padding: 100px  15px;
+	padding: 100px 15px;
 	.about__owner__description {
 		letter-spacing: 1px;
 		color: #3c3c3c;
@@ -52,6 +53,23 @@
 			max-width: 80vw;
 			object-fit: contain;
 			margin-top: 20px;
+		}
+	}
+}
+
+@media (max-width: 640px) {
+	.about__open-mind {
+		padding-bottom: 50px;
+		.about__open-mind__title {
+			padding: 100px 15px 20px 15px;
+		}
+	}
+
+	.about__owner {
+		padding: 50px 15px;
+		.about__owner__description {
+			letter-spacing: 1px;
+			color: #3c3c3c;
 		}
 	}
 }

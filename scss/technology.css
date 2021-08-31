@@ -6,7 +6,7 @@
 .technology .technology__background {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 105vh;
   background-image: url(../assets/technology.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -32,7 +32,7 @@
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   width: 90vw;
-  margin: 80px auto;
+  margin: 120px auto;
   padding: 15px;
 }
 
