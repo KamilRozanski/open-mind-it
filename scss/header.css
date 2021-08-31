@@ -30,7 +30,7 @@
 }
 
 @media (max-width: 640px) {
-  header {
+  .header {
     margin-top: 0px;
   }
 }
