@@ -7,9 +7,9 @@ $screen-xl-min: 1200px;
 
 .contact {
 	position: relative;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
 	display: flex;
+	// grid-template-columns: 1fr 1fr;
+	flex-direction: column;
 	justify-content: space-around;
 }
 .contact__backround {
@@ -36,7 +36,7 @@ $screen-xl-min: 1200px;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		width: 50vw;
+		width: 100vw;
 
 		.contact__label {
 			margin: 20px 0;
@@ -53,7 +53,8 @@ $screen-xl-min: 1200px;
 			border: 2px solid $font-color-dark;
 		}
 		.contact__textarea {
-			max-width: 500px;
+			min-width: 50vw;
+			min-height: 100px;
 			padding: 5px;
 			resize: none;
 			border-radius: 5px;
@@ -85,16 +86,19 @@ $screen-xl-min: 1200px;
 }
 .contact__other__wrapper {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto;
+	margin: 20px 20px;
 	padding: 50px 15px;
-	width: 100%;
-	position: relative;
-	top: 0px;
-	left: 0px;
+	margin: 0 auto;
 	width: 50vw;
+
+	.contact__other__phone,
+	.contact__other__mail {
+		margin: 20px 50px;
+		text-align: center;
+	}
 	.contact__phone__img,
 	.contact__mail__img {
 		max-width: 100px;
@@ -127,20 +131,12 @@ $screen-xl-min: 1200px;
 	.contact {
 		display: grid;
 		grid-template-columns: 1fr;
-
-		.contact__form {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			height: 100vh;
+		.contact__form__wrapper {
 			width: 100vw;
+			padding: 50px 15px;
 		}
-		.contact__label {
-			text-align: center;
-		}
-		.contact__input {
-			margin: 0 auto;
+		.contact__form {
+			width: 100vw;
 		}
 	}
 	.contact__other__wrapper {
@@ -150,22 +146,16 @@ $screen-xl-min: 1200px;
 		.contact__mail__img {
 			max-width: 75px;
 			max-height: 75px;
-
+		}
+		.contact__other__phone,
+		.contact__other__mail {
+			margin: 20px 15px;
+			text-align: center;
 		}
 		.contact__mail__despription,
 		.contact__phone__despription {
 			width: 100px;
-			padding: 5px 15px;
-			border: 2px solid $font-color-dark;
-			border-radius: 5px;
-			color: $font-color-light;
-			background-color: $font-color-dark;
-			transition: .2s ease-in-out;
-			text-align: center;
+			margin-bottom: 50px;
 		}
-		.contact__despription__active--js {
-			background-color: transparent;
-			color: $font-color-dark;
-		}
-}
+	}
 }

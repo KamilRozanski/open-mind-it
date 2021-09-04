@@ -1,8 +1,7 @@
 .contact {
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -32,7 +31,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50vw;
+  width: 100vw;
 }
 
 .contact__form__wrapper .contact__form .contact__label {
@@ -53,7 +52,8 @@
 }
 
 .contact__form__wrapper .contact__form .contact__textarea {
-  max-width: 500px;
+  min-width: 50vw;
+  min-height: 100px;
   padding: 5px;
   resize: none;
   border-radius: 5px;
@@ -87,16 +87,19 @@
 
 .contact__other__wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 20px 20px;
   padding: 50px 15px;
-  width: 100%;
-  position: relative;
-  top: 0px;
-  left: 0px;
+  margin: 0 auto;
   width: 50vw;
+}
+
+.contact__other__wrapper .contact__other__phone,
+.contact__other__wrapper .contact__other__mail {
+  margin: 20px 50px;
+  text-align: center;
 }
 
 .contact__other__wrapper .contact__phone__img,
@@ -134,19 +137,12 @@
     display: grid;
     grid-template-columns: 1fr;
   }
-  .contact .contact__form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  .contact .contact__form__wrapper {
     width: 100vw;
+    padding: 50px 15px;
   }
-  .contact .contact__label {
-    text-align: center;
-  }
-  .contact .contact__input {
-    margin: 0 auto;
+  .contact .contact__form {
+    width: 100vw;
   }
   .contact__other__wrapper {
     padding: 10px 15px;
@@ -157,19 +153,14 @@
     max-width: 75px;
     max-height: 75px;
   }
+  .contact__other__wrapper .contact__other__phone,
+  .contact__other__wrapper .contact__other__mail {
+    margin: 20px 15px;
+    text-align: center;
+  }
   .contact__other__wrapper .contact__mail__despription,
   .contact__other__wrapper .contact__phone__despription {
     width: 100px;
-    padding: 5px 15px;
-    border: 2px solid #3c3c3c;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #3c3c3c;
-    transition: .2s ease-in-out;
-    text-align: center;
-  }
-  .contact__other__wrapper .contact__despription__active--js {
-    background-color: transparent;
-    color: #3c3c3c;
+    margin-bottom: 50px;
   }
 }

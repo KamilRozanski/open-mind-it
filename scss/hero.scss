@@ -17,24 +17,24 @@
 	}
 }
 .about__owner {
-	width: 100vw;
 	display: block;
 	background-color: #e0e2db;
 	padding: 150px 15px;
 
 	.about__owner__description {
-		margin: 0 0 0 15px;
 		letter-spacing: 1px;
 		color: #3c3c3c;
+		margin: 0px;
 	}
 }
 
 .about__owner__img {
 	float: left;
-	padding: 0 25px 25px 25px;
+	padding: 25px;
 	max-width: 39vw;
 	object-fit: contain;
 	border-radius: 50px;
+	min-width: 75px;
 }
 
 @media (max-width: 1024px) {
@@ -66,6 +66,10 @@
 		.about__owner__description {
 			letter-spacing: 1px;
 			color: #3c3c3c;
+		}
+		.about__owner__img {
+			padding: 5px;
+			border-radius: 10px;
 		}
 	}
 }
