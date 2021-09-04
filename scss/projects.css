@@ -130,11 +130,9 @@
     padding: 50px 15px;
   }
   .project__wrapper {
-    margin: 50px 15px;
-    width: 90vw;
+    margin: 50px 30px;
   }
   .project__wrapper .project {
-    position: relative;
     max-width: 200px;
     max-height: 200px;
   }
