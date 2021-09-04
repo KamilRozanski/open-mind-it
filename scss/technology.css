@@ -76,6 +76,10 @@
   .technology .technology__icons__descriptions {
     display: none;
   }
+  .technology .technology__background {
+    background-image: url(../assets/technology-1024px.jpg);
+    background-position: center;
+  }
   .technology__icons {
     display: flex;
     flex-wrap: wrap;
