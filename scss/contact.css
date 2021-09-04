@@ -148,4 +148,28 @@
   .contact .contact__input {
     margin: 0 auto;
   }
+  .contact__other__wrapper {
+    padding: 10px 15px;
+    width: 70vw;
+  }
+  .contact__other__wrapper .contact__phone__img,
+  .contact__other__wrapper .contact__mail__img {
+    max-width: 75px;
+    max-height: 75px;
+  }
+  .contact__other__wrapper .contact__mail__despription,
+  .contact__other__wrapper .contact__phone__despription {
+    width: 100px;
+    padding: 5px 15px;
+    border: 2px solid #3c3c3c;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3c3c3c;
+    transition: .2s ease-in-out;
+    text-align: center;
+  }
+  .contact__other__wrapper .contact__despription__active--js {
+    background-color: transparent;
+    color: #3c3c3c;
+  }
 }

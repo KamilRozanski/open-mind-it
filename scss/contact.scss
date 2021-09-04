@@ -143,4 +143,29 @@ $screen-xl-min: 1200px;
 			margin: 0 auto;
 		}
 	}
+	.contact__other__wrapper {
+		padding: 10px 15px;
+		width: 70vw;
+		.contact__phone__img,
+		.contact__mail__img {
+			max-width: 75px;
+			max-height: 75px;
+
+		}
+		.contact__mail__despription,
+		.contact__phone__despription {
+			width: 100px;
+			padding: 5px 15px;
+			border: 2px solid $font-color-dark;
+			border-radius: 5px;
+			color: $font-color-light;
+			background-color: $font-color-dark;
+			transition: .2s ease-in-out;
+			text-align: center;
+		}
+		.contact__despription__active--js {
+			background-color: transparent;
+			color: $font-color-dark;
+		}
+}
 }
