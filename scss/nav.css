@@ -25,6 +25,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  padding: 5px;
 }
 
 .nav .nav__menu .nav__menu__ul {
@@ -33,7 +34,6 @@
   margin-left: 50px;
   margin-right: 10px;
   list-style-type: none;
-  font-size: 0.9em;
   list-style: none;
   padding-left: 0;
   width: 100%;
@@ -42,7 +42,6 @@
 .nav .nav__menu .nav__menu__ul .nav__menu__link {
   text-decoration: none;
   display: flex;
-  align-items: center;
 }
 
 .nav .nav__menu .nav__menu__ul .nav__menu__link .nav__menu__li {
@@ -51,6 +50,7 @@
   background-position: -30px;
   transition: .2s ease-in-out;
   padding: 0 10px;
+  font-size: 1.2rem;
 }
 
 .nav .nav__menu .nav__menu__ul .nav__menu__link .nav__menu__li:hover {
@@ -74,34 +74,29 @@
   .nav .nav__menu {
     margin: 0 10px;
   }
-  .nav .nav__menu__li {
-    font-size: 1rem;
-    padding: 10px;
+  .nav .nav__menu .nav__menu__ul .nav__menu__link .nav__menu__li {
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width: 640px) {
   .nav {
-    height: 100px;
+    height: 80px;
     justify-content: space-between;
   }
   .nav .nav__logo__image {
     max-width: 100px;
     max-height: 100px;
-    margin-left: 25px;
+    margin-left: 20px;
     cursor: pointer;
   }
   .nav .nav__menu .nav__menu__ul {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin: 0;
   }
   .nav .nav__menu .nav__menu__li {
-    width: 100%;
     margin: 10px;
-    text-align: center;
-    font-size: 1.2rem;
   }
 }
