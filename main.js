@@ -1,3 +1,4 @@
+
 let hamburgerMenu = document.querySelector(".nav__menu__hamburger")
 const navMenu = document.querySelector(".nav__menu ")
 
