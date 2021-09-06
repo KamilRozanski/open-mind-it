@@ -15,11 +15,12 @@
 		transform: translateX(-50%);
 		padding: 100px 15px;
 		margin: 0px;
+		font-size: 2.5rem;
 	}
 }
 
 .project__wrapper {
-	margin: 150px 15px 50px 15px;
+	margin: 250px 15px 50px 15px;
 	.project {
 		position: relative;
 		max-width: 400px;
@@ -117,7 +118,7 @@
 		}
 	}
 	.project__wrapper {
-		margin: 50px 30px;
+		margin: 50px 10px;
 		.project {
 			max-width: 200px;
 			max-height: 200px;
