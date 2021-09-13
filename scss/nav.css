@@ -90,6 +90,22 @@
     margin-left: 20px;
     cursor: pointer;
   }
+  .nav .nav__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    margin: 0 0;
+    transform: translateY(-180px);
+    opacity: 0;
+    transition: transform 1s ease, opacity ease .9s;
+  }
   .nav .nav__menu .nav__menu__ul {
     flex-direction: column;
     justify-content: space-between;
@@ -98,5 +114,11 @@
   }
   .nav .nav__menu .nav__menu__li {
     margin: 10px;
+  }
+  .nav .nav__menu.navMenu--active {
+    visibility: visible;
+    transform: translateY(80px);
+    opacity: 1;
+    transition: transform 1s ease, opacity ease .9s;
   }
 }
