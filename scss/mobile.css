@@ -66,6 +66,5 @@
 @media (max-width: 640px) {
   .nav__menu__hamburger {
     display: block;
-    outline: none;
   }
 }
