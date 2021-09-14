@@ -1,17 +1,19 @@
 .header {
-	margin-top: 150px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	padding-top: 100px;
 	min-height: 100vh;
 
 	.background-video {
 		position: absolute;
-		top: 150px;
+		top: 0px;
 		left: 0px;
 		z-index: -1;
 		object-fit: cover;
 		width: 100vw;
-		min-height: 100vh;
+		min-height: 140vh;
 		opacity: .4;
-		overflow: hidden;
 	}
 	.header__title {
 		position: relative;
@@ -21,14 +23,15 @@
 	.header__text {
 		position: relative;
 		max-width: 700px;
-		margin: 50px 0;
-		padding: 15px 30px;
+		margin: 0;
+		padding: 30px 30px 50px 30px;
 		font-size: 1.8rem;
 	}
 }
 
 @media (max-width: 1024px) {
 	.header {
+		min-height: 90vh;
 		.header__title {
 			font-size: 3rem;
 		}
@@ -42,8 +45,11 @@
 }
 @media (max-width: 640px) {
 	.header {
-		margin-top: 0px;
-
+		min-height: 80vh;
+		padding-top: 30px;
+		.header__text {
+			font-size: 1.2rem;
+		}
 		.background-video {
 			top: 80px;
 		}
@@ -51,6 +57,7 @@
 }
 @media (max-width: 480px) {
 	.header {
+		min-height: 70vh;
 		.header__title {
 			font-size: 2rem;
 		}
