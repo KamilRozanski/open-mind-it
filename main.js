@@ -55,19 +55,19 @@ window.addEventListener("scroll", function () {
     const headerText = document.querySelector(".header__text");
     const aboutOpenMindITTitle = document.querySelector(".about__open-mind__title");
     const aboutOpenMindITDescriptions = document.querySelector(".about__open-mind__descroptions");
-    // const headerText = document.querySelector(".header__text");
-    // const headerText = document.querySelector(".header__text");
 
 
-    console.log(yOffSet)
 
-    if (yOffSet <= 0) {
+
+
+    if (yOffSet <= 100) {
         addScroolInClass(headerTitle)
         addScroolInClass(headerText)
     }
-    if (yOffSet >= 800) {
+    if (yOffSet < 400) {
         addScroolInClass(aboutOpenMindITTitle)
         addScroolInClass(aboutOpenMindITDescriptions)
         console.log("elo")
     }
+    console.log(yOffSet)
 })
