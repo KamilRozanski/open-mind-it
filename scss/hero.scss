@@ -10,11 +10,18 @@
 		text-align: center;
 		margin: 0px;
 		font-size: 2rem;
+		transform: translateX(-2000px);
+		transition: transform .5s ease-in-out;
 	}
 	.about__open-mind__descroptions {
 		margin: 50px 0px;
 		padding: 0 30px;
 		letter-spacing: 1px;
+		transform: translateX(-2000px);
+		transition: transform .5s ease-in-out;
+	}
+	.slideIn {
+		transform: translateX(0px);
 	}
 }
 .about__owner {

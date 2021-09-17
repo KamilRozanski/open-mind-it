@@ -21,6 +21,8 @@
   position: relative;
   padding: 100px 15px 30px 30px;
   font-size: 5rem;
+  transform: translateX(-1000px);
+  transition: transform .5s ease-in-out;
 }
 
 .header .header__text {
@@ -29,6 +31,12 @@
   margin: 0;
   padding: 30px 30px 50px 30px;
   font-size: 1.8rem;
+  transform: translateX(-1000px);
+  transition: transform .5s ease-in-out;
+}
+
+.header .slideIn {
+  transform: translateX(0px);
 }
 
 @media (max-width: 1024px) {

@@ -7,8 +7,6 @@ hamburgerMenu.addEventListener("click", function () {
     navMenu.classList.toggle("navMenu--active")
 })
 
-
-
 // show/hide phone/email
 
 const mobilePhoneIcon = document.querySelector(".contact__phone__img")
@@ -36,4 +34,40 @@ mobilePhoneIcon.addEventListener("click", function () {
 })
 mailIcon.addEventListener("click", function () {
     showHideMail(mailAddress)
+})
+
+
+
+
+//slide sections
+
+
+
+function addScroolInClass(el) {
+    el.classList.add("slideIn")
+}
+
+
+
+window.addEventListener("scroll", function () {
+    let = yOffSet = window.pageYOffset
+    const headerTitle = document.querySelector(".header__title");
+    const headerText = document.querySelector(".header__text");
+    const aboutOpenMindITTitle = document.querySelector(".about__open-mind__title");
+    const aboutOpenMindITDescriptions = document.querySelector(".about__open-mind__descroptions");
+    // const headerText = document.querySelector(".header__text");
+    // const headerText = document.querySelector(".header__text");
+
+
+    console.log(yOffSet)
+
+    if (yOffSet <= 0) {
+        addScroolInClass(headerTitle)
+        addScroolInClass(headerText)
+    }
+    if (yOffSet >= 800) {
+        addScroolInClass(aboutOpenMindITTitle)
+        addScroolInClass(aboutOpenMindITDescriptions)
+        console.log("elo")
+    }
 })
