@@ -17,7 +17,6 @@
     <meta property="og:description" content="Open-Mind-IT creating a graet webside for our customers">
     <meta property="og:image" content="open-mind-it-logo.png">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="php" href="../open-mind-it/index.php">
     <link rel="stylesheet" type="php" href="../open-mind-it/contactForm.php">
     <link rel=" shortcut icon" type="image/Logo" href="assets/open-mind-it-logo-32x32.png" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400;1,900&display=swap"
@@ -131,7 +130,7 @@
 
 
         </section>
-        </section>
+
 
         <section class="projects">
             <h2 class="projects__title">Projects</h2>
@@ -148,11 +147,11 @@
                 </article>
                 <section class=project__links>
                     <a class="project__link" href="#">
-                        <img class="project__links__img" src="assets/github.png">
+                        <img class="project__links__img" src="assets/github.png" alt="img link">
                         <button class="project__demo">Code</button>
                     </a>
                     <a class="project__link" href="#">
-                        <img class="project__links__img" src="assets/pc.png">
+                        <img class="project__links__img" src="assets/pc.png" alt="img link">
                         <button class="project__code">Demo</button>
                     </a>
                 </section>
@@ -171,7 +170,7 @@
                 </article>
                 <section class=project__links>
                     <a class="project__link" href="#">
-                        <img class="project__links__img" src="assets/github.png">
+                        <img class="project__links__img" src="assets/github.png" alt="img link">
                         <button class="project__demo">Code</button>
                     </a>
                     <a class="project__link" href="#">
@@ -192,7 +191,7 @@
                 </article>
                 <section class=project__links>
                     <a class="project__link" href="#">
-                        <img class="project__links__img" src="assets/github.png">
+                        <img class="project__links__img" src="assets/github.png" alt="img link">
                         <button class="project__demo">Code</button>
                     </a>
                     <a class="project__link" href="#">
@@ -298,15 +297,15 @@
             <div class="contact__backround"></div>
             <div class="contact__form__wrapper">
                 <form class="contact__form" action="https://formspree.io/f/mleaadbr" method="POST">
-                    <label class="contact__label" from="name">Your name</label>
+                    <label class="contact__label" name="name">Your name</label>
                     <input class="contact__input" required type="text" id="name" name="name" placeholder="John"
                         pattern="\b([A-ZÀ-ÿ][-,a-z. ']+[ ]*)+">
                     <label class="contact__label" class="contact__number">Contact number</label>
                     <input class="contact__input" type="tel" id="number" name="number" placeholder="600200800"
                         pattern="[0-9]{3}[0-9]{3}[0-9]{3}">
-                    <label class="contact__label" from="email">Your email</label>
+                    <label class="contact__label" name="email">Your email</label>
                     <input class="contact__input" type="text" id="email" name="email" placeholder="email">
-                    <label class="contact__label" from="msg">Your message</label>
+                    <label class="contact__label" name="msg">Your message</label>
                     <textarea class="contact__textarea" required name="message" id="message" cols="30" rows="10"
                         placeholder="message"></textarea>
                     <input class="contact__form__submit" name="submit" type="submit" value="Submit">
@@ -326,7 +325,7 @@
 
         </section>
         <footer class="footer">
-            <p class="footer__desctiption">&copy All Right reserved 2021. Kamil Rozanski Open-Mind-IT </p>
+            <p class="footer__desctiption">&copyAll Right reserved 2021. Kamil Rozanski Open-Mind-IT </p>
             <section class="footer__sources">
                 <div class="footer__sources__item">Icons made by <a href="https://www.freepik.com"
                         title="Freepik">Dave,Freepik, Pixel perfect, Vectors Market, Vitaly

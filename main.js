@@ -41,33 +41,34 @@ mailIcon.addEventListener("click", function () {
 
 //slide sections
 
-
-
 function addScroolInClass(el) {
     el.classList.add("slideIn")
 }
 
+setTimeout(function () {
+    const headerTitle = document.querySelector(".header__title");
+    const headerText = document.querySelector(".header__text");
+    addScroolInClass(headerTitle)
+    addScroolInClass(headerText)
+}, 1000)
+
 
 
 window.addEventListener("scroll", function () {
-    let = yOffSet = window.pageYOffset
-    const headerTitle = document.querySelector(".header__title");
-    const headerText = document.querySelector(".header__text");
+    let = clientHeight = document.body.clientHeight;
+    let = yOffSet = window.pageYOffset;
+
+
+
     const aboutOpenMindITTitle = document.querySelector(".about__open-mind__title");
     const aboutOpenMindITDescriptions = document.querySelector(".about__open-mind__descroptions");
 
 
-
-
-
-    if (yOffSet <= 100) {
-        addScroolInClass(headerTitle)
-        addScroolInClass(headerText)
-    }
-    if (yOffSet < 400) {
-        addScroolInClass(aboutOpenMindITTitle)
-        addScroolInClass(aboutOpenMindITDescriptions)
+    if (yOffSet > 400) {
         console.log("elo")
+
+        // aboutOpenMindITTitle.classList.add("slideIn")
+        // (aboutOpenMindITDescriptions)
     }
     console.log(yOffSet)
 })

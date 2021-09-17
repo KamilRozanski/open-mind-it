@@ -21,6 +21,7 @@
 		font-size: 5rem;
 		transform: translateX(-1000px);
 		transition: transform .5s ease-in-out;
+		visibility: hidden;
 	}
 
 	.header__text {
@@ -31,9 +32,11 @@
 		font-size: 1.8rem;
 		transform: translateX(-1000px);
 		transition: transform .5s ease-in-out;
+		visibility: hidden;
 	}
 	.slideIn {
 		transform: translateX(0px);
+		visibility: visible;
 	}
 }
 
